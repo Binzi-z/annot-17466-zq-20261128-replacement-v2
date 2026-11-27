@@ -1,0 +1,34 @@
+{
+  "windows": [
+    {
+      "virtual": [
+        0,
+        4
+      ],
+      "physical": [
+        8,
+        12
+      ],
+      "mode": "write"
+    },
+    {
+      "virtual": [
+        16,
+        18
+      ],
+      "physical": [
+        11,
+        13
+      ],
+      "mode": "execute"
+    }
+  ],
+  "expectedOverlap": [
+    11,
+    12
+  ],
+  "invalidations": [
+    "old-view-valid",
+    "confirm-removes-old-view"
+  ]
+}

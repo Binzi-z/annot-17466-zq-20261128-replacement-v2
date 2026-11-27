@@ -1,0 +1,10 @@
+.env
+.env.*
+*.key
+*.token
+*.pem
+*.dpapi
+.claude/
+__pycache__/
+artifacts/
+recordings/
